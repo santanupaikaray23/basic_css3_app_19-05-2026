@@ -87,7 +87,7 @@ CSS 3 - is supported in HTML5 based browsers
  5. Multiple device compatibility
  6. Global webstandards
  
-
+completed video : 7th
 
 
 
