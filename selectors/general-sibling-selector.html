@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Sibling Selector</title>
+    <style>
+        div ~ p {
+            background-color: yellow;
+        }
+        div > p {
+            background-color: lightblue;
+        }
+        div ~ code {
+            background-color: violet;
+        }
+        </style>
+</head>
+<body>
+    <h1>General Sibling Selector</h1>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </section>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui reprehenderit eum
+         voluptate obcaecati repellat magnam nostrum cupiditate, optio delectus nesciunt!</p>
+         <code>
+            const a = 10;
+            console.log(a)
+         </code>
+         <p>Paragraph 4</p>
+    
+</body>
+</html>

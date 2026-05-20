@@ -86,8 +86,45 @@ CSS 3 - is supported in HTML5 based browsers
  4. Superior style to HTML
  5. Multiple device compatibility
  6. Global webstandards
+
+ Selectors
+ -----------
+ 1. Combinator Selector
+ 2. Different combinators
+ 3. Descendant Selector (Space)
+ 4. Child Selector (>)
+ 5. Adjacent Sibling Selector(+)
+ 6. General Sibling Selector(~)
+ Descendant Selector
+ --------------------
+ Matches all elements that are Descendants of a Specified element.
+
+ Father - Daughter
+
+Child Selector
+---------------
+Matches all element that are children of specified element.
+
+Adjacent Sibling Selector
+------------------------------
+The Adjacent Sibling selector selects all the elements that 
+are adjacent  siblings of specified element.
+
+Sibling - Must have the same parent element.
+
+Adjacent - Immediately Following 
  
-completed video : 7th
+ General Sibling selector (~) tilde
+ -----------------------------------
+ The general sibling selector selects all the elements that are siblings of a specified element.
+
+pseduo class Selectors
+-------------------------
+Matches components based on an additional condition.
+
+allows you to style the dynamic state of an element.
+
+completed video : 8th
 
 
 
