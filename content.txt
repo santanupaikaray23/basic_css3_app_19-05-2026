@@ -124,7 +124,64 @@ Matches components based on an additional condition.
 
 allows you to style the dynamic state of an element.
 
-completed video : 8th
+completed video : 9th
 
+Pseduo Element Selectors
+-------------------------
+Pseduo element selector is used to style specified parts of an element.
 
+for e.g
+1. Style the first letter or line of an element
+2. Insert the content before or after content of an element.
 
+selector::pseduo-element {
+      property: value
+}
+
+Note::first-line pseudo element can only be applied to block level Elements
+
+In CSS2 and CSS1 pseduo class and pseduo elements used to have single 
+colon
+In CSS3 this has changed and double colon is used for
+pseduo elements
+
+::before
+---------
+It can be used to insert some content before the content of our element
+
+content
+--------
+Content is a property in CSS which is used to generate the content dynamically.
+It can generate content before and after pseduo element.
+
+::Selection
+--------------
+It matched the portion of an element selected by the user.
+
+color, background-color, cursor and outline can be applied to selection
+
+Attribute Selector
+---------------------
+if attribute is target then, it selects all elements with target attribute.
+
+a[target] {
+      background-color: yellow -Select all the elements with target attribute.
+
+}
+
+[attribute~="value"] selector
+--------------------------------
+Is used to select elements with an attribute value containing a Specific word
+
+[attribute | ="value"] selector
+
+[attribute ^ = "value"] selector
+----------------------------------
+It is used to select elements whose attribute begins with specified value.
+[attribute $ = "value"] selector
+----------------------------------
+It is used to select elements whose attribute ends with specified value.
+
+[attribute * ="value"] selector
+------------------------------------
+it is used to select elements whose attribute value contain a specified value.
