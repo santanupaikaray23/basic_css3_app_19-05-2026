@@ -124,8 +124,6 @@ Matches components based on an additional condition.
 
 allows you to style the dynamic state of an element.
 
-completed video : 9th
-
 Pseduo Element Selectors
 -------------------------
 Pseduo element selector is used to style specified parts of an element.
@@ -185,3 +183,18 @@ It is used to select elements whose attribute ends with specified value.
 [attribute * ="value"] selector
 ------------------------------------
 it is used to select elements whose attribute value contain a specified value.
+comments
+-------------
+Will help you to comment your code
+
+Syntax: /* */
+colors
+-------
+Will apply colors to your elements
+4 ways to apply colors
+1. color name
+2. HTML5 color names
+3.Hexadecimal colors
+4. RGB - RED GREEN BLUE
+
+completed video : 9th
